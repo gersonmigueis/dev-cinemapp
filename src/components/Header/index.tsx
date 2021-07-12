@@ -12,7 +12,7 @@ const Header: React.FC<HeaderProps> = ({ size = 'large' }: HeaderProps) => (
     <header>
       <nav>
         <Link to="/">Pesquisar</Link>
-        <Link to="/">Favoritos</Link>
+        <Link to="/favorites">Favoritos</Link>
       </nav>
     </header>
   </Container>
